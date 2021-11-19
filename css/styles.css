@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(29, 118, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 118, 222, 1) 2%,
+    rgba(16, 80, 186, 1) 65%
+  );
+  color: #fff;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.general {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
+}
+
+.general__icon {
+  font-size: 6rem;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.temperature__degree {
+  min-width: 10rem;
+  text-align: right;
+}
+.temperature__type {
+  margin-left: 5px;
+}
+
+.description {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.description__desc {
+  font-size: 2.5rem;
+}
+
+.description__desc::before {
+  content: "-";
+  margin: 10px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

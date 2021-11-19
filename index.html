@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/open-weather-icons.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="general">
+        <h1 class="general__address"></h1>
+        <i class="owi general__icon"></i>
+      </div>
+      <div class="temperature unselectable">
+        <h2 class="temperature__degree"></h2>
+        <span class="temperature__type"></span>
+      </div>
+      <article class="description">
+        <span class="description__main"></span>
+        <span class="description__desc"></span>
+      </article>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
